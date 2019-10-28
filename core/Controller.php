@@ -10,7 +10,6 @@ class Controller
     {
         $this->view = new View();
         //$this->view->user = currentUser();
-        //$this->view->categories = CategoriesModel::getParentCategories();
     }
 
 

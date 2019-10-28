@@ -8,8 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-    <link rel="stylesheet" type="text/css" media="screen" href="http://194.5.157.97/voucher/recourses/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="http://194.5.157.97/var/www/html/voucher/recourses/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="http://194.5.157.97/php2/egzaminas/recourses/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="http://194.5.157.97/var/www/html/php2/egzaminas/recourses/css/style.css">
 
     <title>SEANSAI</title>
 
@@ -28,25 +28,17 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<!--    <meta http-equiv="refresh" content="30">-->
 </head>
 
 <body style="background-color: #D6CFC7">
+<div class="newwrapper">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Voucher</a>
-            </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="<?php echo url(''); ?>">Seansai</a></li>
+                    <li><a href="<?php echo url('movies'); ?>">Įkelti filmą</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
